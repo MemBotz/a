@@ -49,8 +49,8 @@
   --favorites-icon: initial;
   --dock-blur: 0; /* Blur intensity of the dock. */
   --dock-border-radius: 0;
-  --sidebar-width: 250px;
-  --members-width: 205px;
+  --sidebar-width: 270px;
+  --members-width: 220px;
   --sidebar-text-brightness: 0.35;
   --background-floating-blur: 0px;
   --floating-background-lightness: -0.21;
