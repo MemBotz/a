@@ -14,9 +14,9 @@
   /*
     * Spacing
     */
-  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
-  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
-  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+  --rs-small-spacing: 4px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 5px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 6px; /* Gap between avatar and status for User profiles | MUST end in px */
   /*
     * Widths
     */
@@ -26,7 +26,7 @@
   /*
     * Shape
     */
-  --rs-avatar-shape: 0%; /* 50% for round - 0% for square */
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
   /*
     * Colours
     */
@@ -35,13 +35,13 @@
   --rs-dnd-color: #f04747; /* Colour for dnd status */
   --rs-offline-color: #636b75; /* Colour for offline status */
   --rs-streaming-color: #643da7; /* Colour for streaming status */
-  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
-  --rs-self-speaking-color: #57d39b; /* Colour for speaking ring in the bottom left while in a voice chat/call */
+  --rs-invisible-color: #000000; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-self-speaking-color: #FFFFFF; /* Colour for speaking ring in the bottom left while in a voice chat/call */
   --rs-phone-color: var(
   	--rs-online-color
   ); /* Colour of the ring and phone icon when a user is on their phone  */
   /*
     * Others
     */
-  --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
