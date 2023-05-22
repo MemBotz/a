@@ -1,12 +1,12 @@
 /* Add your own Custom CSS here.
 Have a theme you want to use? Copy and paste the contents here.
 You need to restart (click the restart button) after changing. */
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://fonts.googleapis.com/css2?family=Questrial:wght@100;300;400;500;700&display=swap');
 @import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/Solana.css');
 @import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
 @import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 
 :root {
   /*
