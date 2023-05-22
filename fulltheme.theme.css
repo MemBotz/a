@@ -1,0 +1,89 @@
+/* Add your own Custom CSS here.
+Have a theme you want to use? Copy and paste the contents here.
+You need to restart (click the restart button) after changing. */
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://fonts.googleapis.com/css2?family=Questrial:wght@100;300;400;500;700&display=swap');
+@import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/Solana.css');
+@import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
+@import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
+
+:root {
+  /*
+    * Spacing
+    */
+  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+  /*
+    * Widths
+    */
+  --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+  /*
+    * Shape
+    */
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+  /*
+    * Colours
+    */
+  --rs-online-color: #43b581; /* Colour for online status */
+  --rs-idle-color: #faa61a; /* Colour for idle status */
+  --rs-dnd-color: #f04747; /* Colour for dnd status */
+  --rs-offline-color: #636b75; /* Colour for offline status */
+  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-self-speaking-color: #57d39b; /* Colour for speaking ring in the bottom left while in a voice chat/call */
+  --rs-phone-color: var(
+  	--rs-online-color
+  ); /* Colour of the ring and phone icon when a user is on their phone  */
+  /*
+    * Others
+    */
+  --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  --accent-hue: 204;
+  --accent-saturation: 47%;
+  --accent-brightness: 42%;
+  --background-accent-hue: 184;
+  --background-accent-saturation: 100%;
+  --background-accent-brightness: 94%;
+  --background-image: transparent; /* url(https://site.com/foobar.png) | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-image-position: center;
+  --background-image-size: cover;
+  --background-image-blur: 50px;
+  --background-overlay-opacity: 50%;
+  --background-overlay-color-lightness: -0.48;
+  --background-hue-shift-strength: 100%;
+  --window-background-image: transparent;
+  --window-background-image-position: center;
+  --window-background-image-size: cover;
+  --window-background-image-attachment: fixed;
+  --window-opacity: 100%;
+  --window-blur: 0;
+  --window-friends-blur: 0;
+  --window-margin: 1;
+  --window-margin-left: 0;
+  --window-border-radius: 23px;
+  --window-background-lightness: -0.2;
+  --window-accent-tint-strength: 29%;
+  --chat-bubble: 0;
+  --text-link-hue: 232;
+  --chat-text-brightness: 0.48;
+  --home-icon: initial;
+  --favorites-icon: initial;
+  --dock-blur: 0; /* Blur intensity of the dock. */
+  --dock-border-radius: 0;
+  --sidebar-width: 240px;
+  --members-width: 220px;
+  --sidebar-text-brightness: 0.35;
+  --background-floating-blur: 0px;
+  --floating-background-lightness: -0.21;
+  --background-floating-opacity: 1;
+  --enable-floating-transparency: 1;
+  --custom-font-display: Questrial;
+  --custom-font-regular: Questrial;
+  --custom-font-primary: Questrial;
+  --custom-font-code: IBM Plex Mono;
+  --enable-blur: 1;
+}
